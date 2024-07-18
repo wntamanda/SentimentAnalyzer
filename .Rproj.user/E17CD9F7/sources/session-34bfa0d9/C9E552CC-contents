@@ -1,12 +1,19 @@
 Package: SentimentAnalyzer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sentiment Analysis Tools for Textual Reviews
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Amanda Winata <Amanda.Winata@campus.lmu.de>
+Maintainer: Amanda Winata <Amanda.Winata@campus.lmu.de>
+Description: SentimentAnalyzer provides tools to assess and analyze sentiment in textual data,
+    using simple lexical analysis methods. It can calculate, summarize, and classify sentiments
+    in text data without needing external dependencies, making it suitable for educational
+    purposes and lightweight applictions. Note: While this package is licensed under the MIT License, 
+    it is intended primarily for academic use and was developed as a university homework.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
+Depends:
+    R (>= 3.5.0)
+Suggests:
+    testthat (>= 2.1.0)
